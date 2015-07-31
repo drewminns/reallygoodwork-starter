@@ -1,0 +1,133 @@
+@import 'setup.css';
+
+
+
+body { margin: 0 }
+img { max-width: 100% }
+svg { max-height: 100% }
+
+html {
+  font-size: 62.5%
+}
+
+input,
+select,
+textarea,
+fieldset {
+  font-family: inherit;
+  font-size: 1rem;
+  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+label {
+  vertical-align: middle;
+}
+
+input[type=text],
+input[type=date],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week] {
+  /*height: 2.25rem;*/
+  padding: .5rem .5rem;
+  vertical-align: middle;
+  -webkit-appearance: none;
+}
+
+/*select {
+  line-height: 1.75;
+  padding: .5rem .5rem;
+}*/
+
+select:not([multiple]) {
+  /*height: 2.25rem;*/
+  vertical-align: middle;
+}
+
+textarea {
+  line-height: 1.75;
+  padding: .5rem .5rem;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  max-width: 100%;
+  width: 100%;
+}
+
+th {
+  text-align: left;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: .25rem 1rem;
+  line-height: inherit;
+}
+
+th { vertical-align: bottom }
+td { vertical-align: top }
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.7;
+  font-family: $baseFont;
+  font-weight: 300;
+  background: #EAEEF1;
+  position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $headerFont;
+  font-weight: bold;
+  line-height: 1.25;
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+pre, code, samp {
+  font-family: 'Source Code Pro', Consolas, monospace;
+  font-size: inherit;
+}
+
+pre {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow-x: scroll;
+}
+
+h1 { font-size: 9rem; letter-spacing: -10px; margin-bottom: 1.5rem; }
+h2 { font-size: 3rem }
+h3 { font-size: 2.7rem }
+h4 { font-size: 2.3rem }
+h5 { font-size: .875rem }
+h6 { font-size: .75rem }
+
+body {
+  color: #111;
+  background-color: #EAEEF1;
+  display: flex;
+  flex-flow: row wrap;
+}
